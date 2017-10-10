@@ -7,7 +7,7 @@ const expenses = [
         note: '',
         amount: 195,
         createdAt: -1000,
-    }, 
+    },
     {
         id: 2,
         description: 'Rent',
@@ -32,5 +32,5 @@ test('Should filter by text value', () => {
         endDate: null,
     };
     const result = selectExpenses(expenses, filters);
-    expect(result).toEqual([ expenses[2], expenses[1]]);
+    expect(result).toEqual([expenses[2], expenses[1]]);
 });
