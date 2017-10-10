@@ -1,4 +1,4 @@
-import { selectExpenses } from '../../selectors/expenses';
+import selectExpenses from '../../selectors/expenses';
 
 const expenses = [
     {
