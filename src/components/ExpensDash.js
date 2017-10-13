@@ -2,7 +2,7 @@ import React from 'react';
 import ExpenseList from './expenseList';
 import ExpenseListFilters from './ExpenseListFilters';
 
-const ExpensDash = () => (
+export const ExpensDash = () => (
     <div>
         <ExpenseListFilters />
         <ExpenseList />
